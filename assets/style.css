@@ -22,11 +22,13 @@ body{
     max-width: 1240px;
     margin-inline: auto;
     padding-inline: 20px;
+    
 }
 .container-small{
     max-width: 1040px;
     margin-inline: auto;
     padding-inline: 20px;
+    padding-top: 100px;
 
 }
 /*Header NAV*/
@@ -42,7 +44,7 @@ body{
     background-color: white;
     padding-inline: 1rem;
 }
-ul{
+.nav-barsx, .nav-bardx{
     list-style: none;
     display: flex;
     align-items: center;
@@ -63,7 +65,9 @@ ul{
 .btn-blue{
      background-color: var(--blue-color);
      color: white;
-     align-items: center;
+     text-decoration: none;
+     padding: .3rem;
+     display: block;
 }
 
 /*Header JUMBO*/
@@ -79,11 +83,76 @@ header{
 }
 
 .jumbo-text{
+ 
     flex: 0 0 30%;
 
+}
+.paragraph{
+    padding-bottom: 2rem;
 }
 .jumbo img{
     min-width: 0;
     flex: 0 0 70%;
     margin-bottom: -75px;
 }
+
+.jumbo .arrow{
+    color: black;
+    font-size: xx-large;
+    padding-top: 6rem;
+}
+
+/*main*/
+ h2{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.scelta-fatt{
+    padding-bottom: 3rem;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+ .card{
+    width: 30%;
+    margin-inline: auto;
+    border: 1px solid rgb(190, 194, 198) ;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+.heading-card{
+    border-bottom: 1px solid  rgb(190, 194, 198) ;
+    text-align: center;
+    padding: 1rem;
+}
+.title-card{
+    padding-left: 1rem;
+    padding-top: .5rem ;
+    padding-bottom: 1rem;
+  
+
+}
+.body-card{
+    
+    width: 80%;
+    padding-inline: 1rem;
+    padding-top: .5rem ;
+    padding-bottom: 1rem;
+} 
+.body-card li, .sub-body-card li{
+    padding-bottom: 2rem;
+}
+
+
+
+.body-card, .sub-body-card{
+    list-style: none;
+}
+
