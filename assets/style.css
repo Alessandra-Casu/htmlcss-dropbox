@@ -15,9 +15,21 @@ html{
 }
 
 body{
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
+.container-big{
+    max-width: 1240px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+.container-small{
+    max-width: 1040px;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+}
+/*Header NAV*/
 .nav-bar{
     position: fixed;
     top: 0;
@@ -27,7 +39,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: red;
+    background-color: white;
     padding-inline: 1rem;
 }
 ul{
@@ -52,4 +64,26 @@ ul{
      background-color: var(--blue-color);
      color: white;
      align-items: center;
+}
+
+/*Header JUMBO*/
+header{
+    background-color: var(--bg-header);
+}
+ header h1{
+    font-size: 5rem;
+ }
+
+.jumbo{
+    display: flex;
+}
+
+.jumbo-text{
+    flex: 0 0 30%;
+
+}
+.jumbo img{
+    min-width: 0;
+    flex: 0 0 70%;
+    margin-bottom: -75px;
 }
