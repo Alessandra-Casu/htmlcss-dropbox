@@ -55,7 +55,7 @@ body{
     display: block;
     margin-right: 1rem;
 }
-.nav-bar a{
+.link-nav{
     display: flex;
     text-decoration: none;
     color: black;
@@ -66,8 +66,9 @@ body{
      background-color: var(--blue-color);
      color: white;
      text-decoration: none;
-     padding: .3rem;
-     display: block;
+     padding-inline: .7rem;
+     padding: 0.5rem;
+     
 }
 
 /*Header JUMBO*/
@@ -90,16 +91,22 @@ header{
 .paragraph{
     padding-bottom: 2rem;
 }
+.paragraph2{
+    padding-top: 2rem;
+}
+
 .jumbo img{
     min-width: 0;
     flex: 0 0 70%;
     margin-bottom: -75px;
-}
+} 
 
-.jumbo .arrow{
+.arrow{
+    display: inline-block;
     color: black;
-    font-size: xx-large;
-    padding-top: 6rem;
+    font-size: 3rem;
+    padding-top: 10rem;
+    
 }
 
 /*main*/
@@ -123,8 +130,7 @@ header{
     margin-inline: auto;
     border: 1px solid rgb(190, 194, 198) ;
     row-gap: 2rem;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .heading-card{
@@ -133,26 +139,107 @@ header{
     padding: 1rem;
 }
 .title-card{
-    padding-left: 1rem;
-    padding-top: .5rem ;
-    padding-bottom: 1rem;
-  
-
-}
-.body-card{
-    
-    width: 80%;
+    width: 100%;
     padding-inline: 1rem;
-    padding-top: .5rem ;
-    padding-bottom: 1rem;
-} 
-.body-card li, .sub-body-card li{
+    padding-top: 1rem ;
     padding-bottom: 2rem;
 }
-
-
+.body-card{
+    width: 85%;
+    margin-inline: auto;
+} 
 
 .body-card, .sub-body-card{
     list-style: none;
 }
 
+.body-card li{
+    padding-bottom: 1rem;
+}
+
+.btn-card{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+.vicino{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+.link-card{
+    color: blue;
+
+}
+
+.check{
+    display: inline-block;
+    color: blue;
+    margin-right: .5rem;
+}
+
+.cardxl{
+    width: 100%;
+    margin-inline: auto;
+    border: 1px solid rgb(190, 194, 198) ;
+}
+
+.sub-title-card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    
+}
+
+.p-card{
+    width: 70%;
+    margin-left: 1rem;
+    padding-top: 3rem;
+}
+
+.sub-section{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    padding-inline: 0px;
+}
+
+.sub-section img{
+    width: 60%;
+   
+}
+.text{
+    width: 30%;
+    padding-top: 3.5rem;
+    
+}
+
+.sub-section h3{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.btn{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 2rem;
+    padding: .5rem;
+    display: block;
+    width: 50%;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100%/3);
+    padding: 1rem;
+}
+.box img{
+    width: 100%;
+    display: inline-block;
+   
+}
