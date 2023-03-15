@@ -347,3 +347,35 @@ header{
     color: black;
     padding-right: 2rem;
 }
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 4rem;
+    padding-inline: 4rem;
+    padding-bottom: 2rem;
+    font-size: small;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+
+}
+
+footer h3{
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
