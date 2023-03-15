@@ -128,8 +128,9 @@ header{
  .card{
     width: 30%;
     border: 1px solid rgb(190, 194, 198) ;
-    row-gap: 2rem;
+    gap: 2rem;
     flex-wrap: wrap; 
+    margin-bottom:2rem ;
 }
 
 .heading-card{
@@ -177,7 +178,6 @@ header{
 
 .cardxl{
     width: 100%;
-    margin-inline: auto;
     border: 1px solid rgb(190, 194, 198) ;
 }
 
@@ -321,7 +321,7 @@ header{
     display: flex;
     background-color: var(--bg-header);
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     justify-content: space-around;
 }
 
@@ -356,6 +356,7 @@ footer{
     padding-inline: 4rem;
     padding-bottom: 2rem;
     font-size: small;
+    margin-top: 4rem;
 }
 
 footer ul{
