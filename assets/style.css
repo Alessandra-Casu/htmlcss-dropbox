@@ -120,14 +120,13 @@ header{
 
 .container{
     display: flex;
-    width: 100%;
+    flex: 0 0 calc((100%-4)/3);
     flex-wrap: wrap;
     gap: 2rem;
 }
 
  .card{
     width: 30%;
-    margin-inline: auto;
     border: 1px solid rgb(190, 194, 198) ;
     row-gap: 2rem;
     flex-wrap: wrap; 
@@ -246,31 +245,13 @@ header{
 }
 
 
-/*prova
 
-.colors{
-    display: flex;
-    width: 100%;
-}
-
-.colors .left{
-    display: flex;
-    width: calc(100%/2);
-    flex-wrap: wrap;
-}
-
-.green{
-    background-color: rgb(141, 205, 77);
-    height: 100px;
-}
-.amaranto{
-    background-color: rgb(66, 6, 6);
-}*/
 
 
 .triplesection{
     display: flex;
     width: 100%;
+    padding-top: 3rem;
 }
 
 .left{
@@ -291,8 +272,8 @@ header{
     position: absolute;
     top:3rem;
     left: 2rem;
-    
 }
+
 
 
 
@@ -300,7 +281,12 @@ header{
     width: calc(100%/3);
     background-color: rgb(204, 206, 208);
     height: 330px;
+    padding: 2rem;
 
+}
+.center p{
+    font-size: 10px;
+    padding-top: 1rem;
 }
 
 .right{
@@ -308,4 +294,56 @@ header{
     width: calc(100%/3);
     flex-wrap: wrap;
 
+}
+
+
+.riga{
+    width: 50px;
+    border-bottom: 2px solid  rgb(190, 194, 198) ; ;
+    padding-right: .5rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-inline: .7rem;
+    padding: 0.5rem;
+    
+}
+
+
+.team{
+    display: flex;
+    background-color: var(--bg-header);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: space-around;
+}
+
+.team h3, .team div{
+   padding:  2rem 3rem;
+
+}
+
+.team h3{
+    color:rgb(121, 35, 53);
+}
+
+
+
+.faq .row{
+    border-bottom: 2px solid rgb(190, 194, 198);
+    line-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row a{
+    color: black;
+    padding-right: 2rem;
 }
