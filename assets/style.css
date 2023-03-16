@@ -245,42 +245,58 @@ header{
 }
 
 
-
-
-
-.triplesection{
-    display: flex;
+/*Sezione quadrati colorati*/
+.container-minicard{
     width: 100%;
-    padding-top: 3rem;
+   
+    min-height: 350px;
+    display: flex;   
 }
-
-.left{
+.minicontainer{
     display: flex;
     width: calc(100%/3);
-    
-    height: 330px;
-    justify-items: space-around;
+}
+ /*Parte sinistra*/
+.left, .right{
+    display: flex;
     flex-wrap: wrap;
 }
-.minicard{
-    position: relative;
+.scritte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 50%;
-    border: 2px solid black;
-}
-.imgminicard{
-    position: absolute;
-    top:3rem;
-    left: 2rem;
+    min-width: none;
 }
 
+.scritte1{
+    background-color: rgb(181, 237, 181) ;
+}
 
+.scritte2{
+    background-color: rgb(109, 28, 46);
+}
 
+.scritte3{
+    background-color: rgb(48, 121, 224);
+}
+.imgflorida{
+    padding-top: 6rem;
+    padding-inline: 3rem;
+}
 
+.scritte4{
+    background-color: rgb(237, 9, 9);
+}
+
+/*Parte centrale*/
 .center{
+    
+    flex-wrap: wrap;
+    align-content: flex-start;
     width: calc(100%/3);
     background-color: rgb(204, 206, 208);
-    height: 330px;
     padding: 2rem;
 
 }
@@ -289,11 +305,10 @@ header{
     padding-top: 1rem;
 }
 
-.right{
-    display: flex;
-    width: calc(100%/3);
-    flex-wrap: wrap;
-
+.img-minicardcenter{
+     display: block;
+     width: 100%;
+       
 }
 
 
@@ -303,7 +318,6 @@ header{
     padding-right: .5rem;
     padding-top: 2rem;
     margin-bottom: 2rem;
-    
 }
 
 .btn-white{
@@ -315,7 +329,6 @@ header{
     padding: 0.5rem;
     
 }
-
 
 .team{
     display: flex;
