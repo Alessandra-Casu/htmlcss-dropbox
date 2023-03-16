@@ -152,6 +152,9 @@ header{
     width: 85%;
     margin-inline: auto;
 } 
+.body-card h4{
+    padding-bottom: 2rem;
+}
 
 .body-card, .sub-body-card{
     list-style: none;
@@ -279,14 +282,17 @@ header{
 
 .scritte1left{
     background-color: rgb(181, 237, 181) ;
+    background-size: contain;
 }
 
 .scritte2left{
     background-color: rgb(109, 28, 46);
+    background-size: contain;
 }
 
 .scritte3left{
     background-color: rgb(48, 121, 224);
+    background-size: contain;
 }
 .imgflorida{
     padding-top: 7rem;
@@ -295,6 +301,7 @@ header{
 
 .scritte4left{
     background-color: rgb(237, 9, 9);
+    background-size: contain;
 }
 
 /*Parte centrale*/
@@ -315,23 +322,25 @@ header{
 .img-minicardcenter{
      display: block;
      width: 100%;
-     fill: black;
-
-       
+     fill: black;      
 }
 
 /*Parte destra*/
 .scritte1right{
     background-color: rgb(155, 13, 13);
+    background-size: contain;
 }
 .scritte2right{
     background-color:rgb(130, 184, 241);
+    background-size: contain;
 }
 .scritte3right{
     background-color: rgb(51, 51, 132);
+    background-size: contain;
 }
 .scritte4right{
     background-color:rgb(245, 245, 6) ;
+    background-size: contain;
 }
 
 
